@@ -2,4 +2,5 @@
 *
 # ... except preferences
 !.gitignore
+!Package Control.sublime-settings
 !Preferences.sublime-settings

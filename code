@@ -1,0 +1,4 @@
+cd "$env:AppData\Sublime Text 3\"
+mkdir $env:UserProfile\Sublime
+mv Packages $env:UserProfile\Sublime\
+New-Item -ItemType "SymbolicLink" -Path "Packages" -Target "$env:UserProfile\Sublime"
